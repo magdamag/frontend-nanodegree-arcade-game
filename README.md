@@ -1,6 +1,26 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This game is third project of Front-End Web Developer Nanodegree Program. It is written using HTML, CSS, and JS, with particular emphasis on Object-Oriented JavaScript.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Instructions
+
+* How to run the games
+
+To run the game you must run the index.html file in a browser.
+
+* How to play
+
+Basic concept of this game is to move your player from grass part of the board to the water part. But you have to be careful because your path is crossed by bugs moving at different and random speeds.
+
+To start the game choose your player image and press Start button.
+To make your player move use arrow keys. You can go left/right up/down within board boundries.
+Avoid touching any bugs as this will reset the game and you will need to start over again.
+To win the game you must reach the water and it is when game ends.
+You will see a pop-up window which will notify you about that. You can play again by clicking “Play again” button.
+If not, click the “Cancel” button.
+"Play again" button will take you to the beginning start screen where you can choose your player and start the game.
+
+
+### Dependencies
+
+* Art assets and game engine provided by Udacity https://github.com/udacity/frontend-nanodegree-arcade-game

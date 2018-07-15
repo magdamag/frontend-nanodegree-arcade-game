@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effective JavaScript: Frogger</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
+  <div id="start-modal">
+		<h1 class="title">Classic Arcade Game</h1>
+    <div class="character">Choose your player</div>
+    <ul class="player-options">
+      <li>
+        <img src="images/char-boy.png" alt="boy">
+      </li>
+      <li>
+        <img src="images/char-cat-girl.png" alt="cat girl">
+      </li>
+      <li>
+        <img src="images/char-horn-girl.png" alt="horn girl">
+      </li>
+      <li>
+        <img src="images/char-pink-girl.png" alt="pink girl">
+      </li>
+      <li>
+        <img src="images/char-princess-girl.png" alt="princess">
+      </li>
+    </ul>
+    <button class="start-button">Start</button>
+  </div>
+
+  <div id="modal-congrats">
+    <div class="modal-info">
+		  <h2 class="title">Congratulations! You Won!</h2>
+      <button id="restart">Play again!</button>
+      <button id="cancel">Cancel</button>
+    </div>
+	</div>
+  
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
 </body>
 </html>

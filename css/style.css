@@ -1,3 +1,114 @@
 body {
     text-align: center;
+    flex-wrap: wrap;
+}
+
+canvas {
+	display: inline-block;
+	margin: auto;
+}
+
+/* Opening modal styling */
+#start-modal {
+  background-color: #bfd641;
+  border: 10px solid;
+  border-radius: 25px;
+  color: #6b5b95;
+  display: inline-block;
+  position: absolute;
+  margin: 8% auto;
+  z-index: 1;
+  width: 445px;
+  height: 330px;
+  padding: 1em;
+  font-size: 20px;
+}
+
+.title {
+	border: 2px solid;
+	background-color: #f0ede5;
+	color: #6b5b95;
+	border-radius: 15px;
+	margin: auto;
+}
+
+.character {
+  margin-top: 5;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 12px 28px;
+}
+
+.player-options {
+  display: flex;
+  margin: 3;
+  cursor: pointer;
+}
+
+.player-options li {
+    list-style: none;
+}
+
+.player-options img:hover {
+    background-color: #ecdb54;
+}
+
+.player-options img {
+    width: 80px;
+}
+
+.player-options-active {
+  background-color: #ecdb54;
+}
+
+.start-button {
+	width: 50%;
+	margin: auto;
+	border-radius: 15px;
+	font-size: 30px;
+  border: 2px solid;
+	background-color: #f0ede5;
+	color: #6b5b95;
+	border-radius: 15px;
+}
+
+.start-button:hover {
+  background-color: #ecdb54;
+}
+
+/* Ending modal styling */
+#modal-congrats {
+  display: none;
+  z-index: 1;
+	background-color: #9896A4;
+	box-shadow: 3px 3px 3px #6e7472;
+	border-radius: 10px;
+  border: 2px solid;
+	width: 503px;
+  height: 150px;
+	position: absolute;
+	text-align: center;
+  margin: 15% auto;
+}
+
+.modal-info {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.modal-info button {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #eadedb;
+  font-size: 20px;
+  padding: 12px 28px;
+  text-align: center;
+  font-family : inherit;
+  font-weight: bold;
+  color: #6b5b95;
+}
+
+.modal-info button:hover {
+  background-color: #ecdb54;
 }
